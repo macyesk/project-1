@@ -6,6 +6,10 @@
   --white: #ffffff;
 }
 
-#nav {
-  
+.logo {
+  background-color: var(--thirty);
+}
+
+.navbar {
+  background-color: var(--thirty);
 }
