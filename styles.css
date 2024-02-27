@@ -17,13 +17,13 @@
 }
 
 section {
-  height: 5vh;
+  height: 3em;
   width: 100vw;
   background-color: var(--thirty);
   text-align: center;
   color: var(--sixty);
   position: sticky;
-  top: 0;
+  padding: 1em;
 }
 
 .content {
@@ -35,4 +35,20 @@ section {
 .header-text.header-text.header-text.header-text {
   color: var(--ten);
   font-family: 'Poppins', sans-serif;
+}
+
+.first-divider {
+  top: 0;
+  border-bottom: 0.5px solid var(--sixty);
+
+}
+
+.second-divider {
+  top: 3em;
+  border-bottom: 0.5px solid var(--sixty);
+}
+
+.third-divider {
+  top: 6em;
+  border-bottom: 0.5px solid var(--sixty);
 }
