@@ -1,10 +1,11 @@
-:root{
-  --sixty: #FFF6E4;
+:root {
+  --sixty: #fff6e4;
   --thirty: #383838;
-  --ten: #89A8E1;
-  --accent: #C37D92;
+  --ten: #89a8e1;
+  --accent: #c37d92;
   --white: #ffffff;
   position: absolute;
+  font-family: 'Poppins', sans-serif;
 }
 
 .logo {
@@ -33,4 +34,5 @@ section {
 
 .header-text.header-text.header-text.header-text {
   color: var(--ten);
+  font-family: 'Poppins', sans-serif;
 }
