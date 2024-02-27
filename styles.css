@@ -17,13 +17,14 @@
 }
 
 section {
-  height: 3em;
+  height: 5em;
   width: 100vw;
   background-color: var(--thirty);
   text-align: center;
   color: var(--sixty);
   position: sticky;
-  padding: 1em;
+  padding: 1.5em;
+  font-family: 'Poppins', sans-serif;
 }
 
 .content {
@@ -37,18 +38,34 @@ section {
   font-family: 'Poppins', sans-serif;
 }
 
+#hero {
+  height: 100vh;
+}
+
 .first-divider {
   top: 0;
   border-bottom: 0.5px solid var(--sixty);
-
 }
 
 .second-divider {
-  top: 3em;
+  top: 5em;
   border-bottom: 0.5px solid var(--sixty);
 }
 
 .third-divider {
-  top: 6em;
+  top: 10em;
   border-bottom: 0.5px solid var(--sixty);
+}
+
+.about-me-image {
+  position: relative;
+  aspect-ratio: 1.373 / 1;
+  top: 25vh;
+  left: 2em;
+}
+
+.about-me-image img {
+  aspect-ratio: 1.373 / 1;
+  height: 50vh;
+  border-radius: 10px;
 }
