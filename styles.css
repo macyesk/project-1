@@ -4,6 +4,7 @@
   --ten: #89A8E1;
   --accent: #C37D92;
   --white: #ffffff;
+  position: absolute;
 }
 
 .logo {
@@ -12,4 +13,24 @@
 
 .navbar {
   background-color: var(--thirty);
+}
+
+section {
+  height: 5vh;
+  width: 100vw;
+  background-color: var(--thirty);
+  text-align: center;
+  color: var(--sixty);
+  position: sticky;
+  top: 0;
+}
+
+.content {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--sixty);
+}
+
+.header-text.header-text.header-text.header-text {
+  color: var(--ten);
 }
