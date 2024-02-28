@@ -1,11 +1,14 @@
 :root {
-  --sixty: #fff6e4;
+  --sixty: #fffaf1;
   --thirty: #383838;
   --ten: #89a8e1;
   --accent: #c37d92;
   --white: #ffffff;
   position: absolute;
-  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
 }
 
 .logo {
@@ -24,7 +27,6 @@ section {
   color: var(--sixty);
   position: sticky;
   padding: 1.5em;
-  font-family: 'Poppins', sans-serif;
 }
 
 .content {
@@ -35,11 +37,10 @@ section {
 
 .header-text.header-text.header-text.header-text {
   color: var(--ten);
-  font-family: 'Poppins', sans-serif;
 }
 
 #hero {
-  height: 100vh;
+  height: 75vh;
 }
 
 .first-divider {
@@ -57,15 +58,41 @@ section {
   border-bottom: 0.5px solid var(--sixty);
 }
 
-.about-me-image {
-  position: relative;
+.about-me-image img{
+  position: absolute;
+  left: 5%;
+  top: 50vh;
+  width: 40%;
+  transform: translateY(-50%);
   aspect-ratio: 1.373 / 1;
-  top: 25vh;
-  left: 2em;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
 }
 
-.about-me-image img {
-  aspect-ratio: 1.373 / 1;
+.right-hero {
+  position: absolute;
+  left: 50%;
+  top: 62vh;
+  transform: translateY(-50%);
+  width: 45%;
   height: 50vh;
-  border-radius: 10px;
+  text-align: center;
+}
+
+.right-text {
+  width: 100%;
+  height: 60%;
+  margin-top: 5%;
+  color: var(--secondary);
+  padding: 5px;
+  text-align: left;
+}
+
+.right-text p{
+  width: 80%;
+}
+
+.right-text h1{
+  font-size: 3.5rem;
 }
