@@ -44,6 +44,7 @@ section {
 }
 
 .first-divider {
+  z-index: 1;
   top: 0;
   border-bottom: 0.5px solid var(--sixty);
 }
@@ -95,4 +96,16 @@ section {
 
 .right-text h1{
   font-size: 3.5rem;
+}
+
+.carousel {
+  z-index: 0;
+  
+  top: 10vh;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.about-me {
+  margin: 5;
 }
