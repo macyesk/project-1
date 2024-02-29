@@ -185,9 +185,13 @@ section {
 
 .experience-cards {
   position: relative;
-  top: 5vh;
+  top: 6vh;
 }
 
 .card {
   margin-left: 9.75rem;
+}
+
+.card-text {
+  font-size: 0.8em;
 }
