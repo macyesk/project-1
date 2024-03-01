@@ -27,7 +27,7 @@ section {
   color: var(--sixty);
   position: sticky;
   padding: 1.5em;
-  z-index: 1;
+  z-index: 2;
 }
 
 .content {
@@ -50,6 +50,10 @@ section {
 
 .header-text.header-text.header-text.header-text {
   color: var(--ten);
+}
+
+.header-text.header-text.header-text.header-text:hover {
+  color: var(--accent);
 }
 
 #hero {
