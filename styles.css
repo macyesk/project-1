@@ -1,6 +1,6 @@
 :root {
-  --sixty: #fffaf1;
-  --thirty: #383838;
+  --sixty: #fdfcf8;
+  --thirty: #2f2f2f;
   --ten: #89a8e1;
   --accent: #c37d92;
   --white: #ffffff;
@@ -188,10 +188,14 @@ section {
   top: 6vh;
 }
 
-.card {
+.card.card {
   margin-left: 9.75rem;
+  background-color: var(--sixty);
+  border-color: var(--ten);
+  color: var(--thirty);
 }
 
 .card-text {
   font-size: 0.8em;
+
 }
