@@ -24,7 +24,7 @@ section {
   width: 100vw;
   background-color: var(--thirty);
   text-align: center;
-  color: var(--sixty);
+  color: var(--ten);
   position: sticky;
   padding: 1.5em;
   z-index: 2;
@@ -45,7 +45,7 @@ section {
   
 }
 .third-content {
-  height: calc(100vh - 15em);
+  height: calc(100vh - 5em);
 }
 
 .header-text.header-text.header-text.header-text {
@@ -53,7 +53,7 @@ section {
 }
 
 .header-text.header-text.header-text.header-text:hover {
-  color: var(--accent);
+  color: var(--sixty);
 }
 
 #hero {
@@ -202,4 +202,42 @@ section {
 .card-text {
   font-size: 0.8em;
 
+}
+
+.navbar-toggler.navbar-toggler {
+  border-color: var(--ten);
+}
+
+.skill-photo img{
+  border-radius: 50%;
+  width: 200px;
+
+}
+
+.skills {
+  position: relative;
+  top: 15vh;
+}
+
+.skill-1 {
+  margin-left: 9em;
+}
+.skill-2 {
+  margin-left: 5em;
+}
+.skill-3 {
+  margin-left: 5em;
+}
+.skill-4 {
+  margin-left: 5em;
+}
+
+.skills-text {
+  position: relative;
+  top: 15vh;
+  text-align: center;
+}
+
+.skill-text-1 {
+  margin-left: 8em;
 }
