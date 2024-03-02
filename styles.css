@@ -15,6 +15,11 @@
   background-color: var(--thirty);
 }
 
+.logo-bottom {
+  position: relative;
+  left: 47vw;
+}
+
 .navbar {
   background-color: var(--thirty);
 }
@@ -42,14 +47,14 @@ section {
 }
 .second-content {
   height: calc(100vh - 10em);
-  
 }
 .third-content {
-  height: calc(100vh - 5em);
+  height: calc(100vh - 15em);
 }
 
 .header-text.header-text.header-text.header-text {
   color: var(--ten);
+  text-decoration: none;
 }
 
 .header-text.header-text.header-text.header-text:hover {
@@ -61,7 +66,6 @@ section {
 }
 
 .first-divider {
-  
   top: 0;
   border-bottom: 0.5px solid var(--sixty);
 }
@@ -123,7 +127,7 @@ section {
   padding: 2em;
 }
 
-.about-me-text p{
+.about-me-text p {
   width: 88%;
 }
 
@@ -137,8 +141,6 @@ section {
   left: 47%;
   height: 70vh;
 }
-
-
 
 .slider-wrapper {
   position: relative;
@@ -201,17 +203,15 @@ section {
 
 .card-text {
   font-size: 0.8em;
-
 }
 
 .navbar-toggler.navbar-toggler {
   border-color: var(--ten);
 }
 
-.skill-photo img{
+.skill-photo img {
   border-radius: 50%;
   width: 200px;
-
 }
 
 .skills {
@@ -240,4 +240,14 @@ section {
 
 .skill-text-1 {
   margin-left: 8em;
+}
+
+.bottom-nav {
+  height: 100px;
+  background-color: var(--thirty);
+}
+
+.bottom-nav-content {
+  position: relative;
+  padding: 15px;
 }
